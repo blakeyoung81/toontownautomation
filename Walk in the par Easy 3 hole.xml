@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimulatorProject xmlns="https://github.com/TTExtensions/MouseClickSimulator">
+  <Title>Golfing</Title>
+  <Description>This project contains some Left, Right, Control and wait functions.</Description>
+
+  <!-- Quick Actions are additional actions which can be started by pressing a button
+  for this action. -->
+
+    <QuickAction title="90 degrees">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="1520" />
+  </Compound>
+  </QuickAction>
+
+ <QuickAction title="Afternoon Tea X">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="2122" />
+    <Pause duration="1000" />
+  </Compound>
+  </QuickAction>
+
+   <QuickAction title="Afternoon Tea -2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Right" duration="600" />
+    <PressKey key="Control" duration="400" />
+     <PressKey key="Right" duration="450" />
+    <PressKey key="Control" duration="1623" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="At the Drive in">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Left" duration="500" />
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Right" duration="750" />
+    <PressKey key="Control" duration="2219" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="At the Drive in -2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Left" duration="500" />
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Right" duration="450" />
+      <!-- Just to left of drive through-->
+    <PressKey key="Control" duration="1976" />
+  </Compound>
+  </QuickAction>
+
+      <QuickAction title="Bogie Nights">
+    <Compound type="Sequential" loop="false">
+      <PressKey key="Control" duration="400" />
+      <PressKey key="Right" duration="550" />
+      <PressKey key="Control" duration="2200" />
+    </Compound>
+  </QuickAction>
+
+        <QuickAction title="Bogie Nights -2">
+    <Compound type="Sequential" loop="false">
+      <PressKey key="Control" duration="500" />
+      <PressKey key="Right" duration="800" />
+      <PressKey key="Control" duration="2280" />
+    </Compound>
+  </QuickAction>
+
+  <QuickAction title="Down the Hatch 1 2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Left" duration="860" />
+
+    <PressKey key="Control" duration="1262" />
+  </Compound>
+  </QuickAction>
+
+
+  <QuickAction title="Hole in fun 1-2-">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="1580" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="Hole in fun -2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Left" duration="400" />
+    <PressKey key="Control" duration="500" />
+    <PressKey key="Right" duration="240" />
+    <PressKey key="Control" duration="1641" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="Hole on the range X">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="1800" />
+  </Compound> 
+  </QuickAction>
+
+  <QuickAction title="Hole on the range -2">
+  <Compound type="Sequential" loop="false">
+  <PressKey key="Left" duration="400" />
+  <PressKey key="Control" duration="400" />
+  <PressKey key="Right" duration="250" />
+   <PressKey key="Control" duration="2128" />
+  </Compound> 
+  </QuickAction>
+
+    <QuickAction title="Holy Mackerol X">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="500" />
+    <PressKey key="Control" duration="1120" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="Holy Mackerol -2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="500" />
+    <PressKey key="Right" duration="400" />
+    <PressKey key="Control" duration="1307" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="Hot Links -1"> 
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Right" duration="400" />
+    <PressKey key="Control" duration="550" />
+     <PressKey key="Left" duration="780" />
+    <PressKey key="Control" duration="1322" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="Hot Links -2"> 
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Right" duration="400" />
+    <PressKey key="Control" duration="550" />
+    <PressKey key="Up" duration="540" />
+    <PressKey key="Control" duration="2062" />
+  </Compound>
+  </QuickAction>
+
+
+
+  
+
+
+
+
+</SimulatorProject>

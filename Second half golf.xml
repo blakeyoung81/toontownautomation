@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimulatorProject xmlns="https://github.com/TTExtensions/MouseClickSimulator">
+  <Title>Golfing</Title>
+  <Description>This project contains some Left, Right, Control and wait functions.</Description>
+
+  <!-- Quick Actions are additional actions which can be started by pressing a button
+  for this action. -->
+
+
+  <QuickAction title="Peanut Butter 1X-2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+      <PressKey key="Right" duration="5" />
+    <PressKey key="Control" duration="1890" />
+  </Compound>
+  </QuickAction>
+
+
+    <QuickAction title="No puts about it">
+  <Compound type="Sequential" loop="false">
+  <PressKey key="Left" duration="180" />
+    <PressKey key="Control" duration="500" />
+    <PressKey key="Left" duration="170" />
+    <PressKey key="Control" duration="3060" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="One Little Birdie">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Left" duration="180" />
+    <PressKey key="Control" duration="500" />
+      <PressKey key="Right" duration="880" />
+    <PressKey key="Control" duration="3030" />
+  </Compound>
+  </QuickAction>
+
+
+    <QuickAction title="One Little Birdie -2">
+    <Compound type="Sequential" loop="false">
+      <PressKey key="Left" duration="420" />
+      <PressKey key="Control" duration="500" />
+      <PressKey key="Right" duration="810" />
+      <PressKey key="Control" duration="1525" />
+      <!-- Quick Actions pause. -->
+    </Compound>
+  </QuickAction>
+
+     <QuickAction title="Rock and roll in 2 -2">
+    <Compound type="Sequential" loop="false">
+      <PressKey key="Control" duration="500" />
+      <PressKey key="Left" duration="500" />
+      <PressKey key="Control" duration="2925" />
+      <!-- Quick Actions pause. -->
+    </Compound>
+  </QuickAction>
+
+    <QuickAction title="Seeing Green X">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="1900" />
+    <Pause duration="1000" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="Seeing Green 2">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Right" duration="500" />
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Right" duration="530" />
+    <PressKey key="Control" duration="2900" />
+  </Compound>
+  </QuickAction>
+  
+  <QuickAction title="Second Wind">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="2679" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="Swing Along">
+  <Compound type="Sequential" loop="false">
+  <PressKey key="Control" duration="400" />
+  <PressKey key="Right" duration="130" />
+  <PressKey key="Control" duration="2035" />
+  </Compound>
+  </QuickAction>
+
+  <QuickAction title="Swing time -1 -2">
+    <Compound type="Sequential" loop="false">
+      <PressKey key="Control" duration="200" />
+      <PressKey key="Right" duration="650" />
+      <PressKey key="Control" duration="1350" />
+    </Compound>
+  </QuickAction>
+
+  <QuickAction title="Tea off time">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="500" />
+    <PressKey key="Right" duration="370" />
+    <PressKey key="Control" duration="1850" />
+  </Compound>
+  </QuickAction>
+
+
+  <QuickAction title="Whole Some Fun">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+    <PressKey key="Control" duration="1950" />
+  </Compound>
+  </QuickAction>
+
+    <QuickAction title="Whole in one">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="400" />
+       <PressKey key="Right" duration="590" />
+    <PressKey key="Control" duration="1950" />
+  </Compound>
+  </QuickAction>
+
+
+ <QuickAction title="Zero">
+  <Compound type="Sequential" loop="false">
+    <PressKey key="Control" duration="10" />
+    <PressKey key="Control" duration="10" />
+  </Compound>
+  </QuickAction>
+
+</SimulatorProject>

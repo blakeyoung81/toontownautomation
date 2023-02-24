@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimulatorProject xmlns="https://github.com/TTExtensions/MouseClickSimulator">
+  <Title>Sample Actions</Title>
+  <Description>This project contains some keyboard actions, a SpeedChat and a WriteText action.</Description>
+
+  <MainAction>
+    <!--
+    A compound action is an action that combines several other actions. 
+    You can specify if the the actions should be executed sequentially (type="Sequential"),
+    in random order (type="RandomOrder") or completely random (type="RandomIndex").
+    By default, all actions are run in an (infinite) loop which can be disabled by
+    specifying loop="false". If you disable the loop for the main compound action, the
+    Simulator will stop after executing all inner actions.
+    After executing each action the Simulator will pause for a random duration between
+    the minimumPause and maximumPause numbers in milliseconds.
+    -->
+    <Compound type="RandomOrder" minimumPause="500" maximumPause="1500">
+      <!-- 
+      PressKey specifies that the Simulator should press a key for the defined duration.
+      Possible values for key: "Left", "Right", "Up", "Down", "Control", "Enter"
+      -->
+      <Speedchat menuItems="3, 2, 0" /> 
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="100" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="310" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="100" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="160" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="330" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="150" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="340" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="300" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="110" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="100" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="110" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="100" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="150" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="350" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="310" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="190" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="150" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="340" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="300" />
+      <Speedchat menuItems="3, 0, 1" />
+      <Pause duration="110" />
+      <Speedchat menuItems="3, 1, 0" />
+
+      
+      <!--
+      WriteText writes the specified text. If pauseDuration is not specified, the text
+      is written in one go.
+      -->
+
+    </Compound>
+
+    
+  
+  </MainAction>
+
+
+
+</SimulatorProject>
